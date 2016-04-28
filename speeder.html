@@ -72,7 +72,7 @@
 			var finalTime = new Date().getTime(); 
 			var elapsedTime = finalTime - startTime;
 			var dist = (count/15)*0.000189393939;
-			var time = (elapsedTime -1000)/1000/60/60; 
+			var time = (elapsedTime -1000)/1000/30/30; 
 			var speed= dist/time;
 			results.innerHTML = "Your finger speed was about " + Math.round(speed*100)/100 + " mph" ; 
 			speeder.accelerate(speed);
